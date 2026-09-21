@@ -10,9 +10,9 @@ UYAP Doküman Editörü (.udf) dosyalarının içindeki resimlerin kalitesini d�
 
 | İşletim Sistemi | İndirme Bağlantısı |
 | :--- | :--- |
-| 🪟 **Windows** | [Windows Sürümünü İndir (.exe)](https://github.com/mehmetcoban-hub/UDF-Yuksek-Kalite-Resim-Duzenleyici/releases/download/1.0.0/UDF.Yuksek.Kalite.Resim.Duzenleyici.exe) |
-| 🍎 **macOS (Mac)** | [Mac Sürümünü İndir (.zip)](https://github.com/mehmetcoban-hub/UDF-Yuksek-Kalite-Resim-Duzenleyici/releases/download/1.0.0/UDF.Yuksek.Kalite.Resim.Duzenleyici-macOS.zip) |
-| 🐧 **Linux** | [Linux Sürümünü İndir (.zip)](https://github.com/mehmetcoban-hub/UDF-Yuksek-Kalite-Resim-Duzenleyici/releases/download/1.0.0/UDF.Yuksek.Kalite.Resim.Duzenleyici-Linux.zip) |
+| 🪟 **Windows** | [Windows Sürümünü İndir (.exe)](https://github.com/mehmetcoban-hub/UDF-Yuksek-Kalite-Resim-Duzenleyici/releases/download/1.0.1/UDF.Yuksek.Kalite.Resim.Duzenleyici.exe) |
+| 🍎 **macOS (Mac)** | [Mac Sürümünü İndir (.zip)](https://github.com/mehmetcoban-hub/UDF-Yuksek-Kalite-Resim-Duzenleyici/releases/download/1.0.1/UDF-Resimcisi-macOS.zip) |
+| 🐧 **Linux** | [Linux Sürümünü İndir (.zip)](https://github.com/mehmetcoban-hub/UDF-Yuksek-Kalite-Resim-Duzenleyici/releases/download/1.0.1/UDF-Resimcisi-Linux.zip) |
 
 ---
 
