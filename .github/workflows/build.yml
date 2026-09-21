@@ -1,1 +1,49 @@
+name: Mac ve Linux İçin Derle
 
+# Bu işlem koda her yeni bir şey yüklendiğinde (push) veya GitHub üzerinden manuel olarak tetiklendiğinde çalışır.
+on:
+  push:
+    branches: [ "main", "master" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: ${{ matrix.os }} Üzerinde Derle
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        # Hangi işletim sistemlerinde derleneceğini seçiyoruz
+        os: [ubuntu-latest, macos-latest]
+
+    steps:
+    - name: Depoyu Klonla (Checkout)
+      uses: actions/checkout@v4
+
+    - name: Python Ortamını Kur
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11' # PyQt5 ile en stabil çalışan sürümlerden biri
+
+    - name: Gerekli Kütüphaneleri Yükle
+      run: |
+        python -m pip install --upgrade pip
+        pip install PyQt5 Pillow pyinstaller
+
+    - name: Linux İçin Ekran Kütüphanelerini Kur
+      # Linux sunucusunda grafiksel arayüz (UI) kütüphanelerinin derlenebilmesi için gereken sistem paketleri
+      if: runner.os == 'Linux'
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y libxcb-xinerama0 libxcb-cursor0
+
+    - name: PyInstaller ile Programı Paketle
+      # Windows'ta yazdığın komutun aynısı, Mac ve Linux için otomatik çalıştırılır
+      run: |
+        pyinstaller --noconsole --onefile "UDF Yüksek Kalite Resim Düzenleyici.py"
+
+    - name: Derlenen Dosyaları GitHub'a Yükle
+      # İşlem bitince programları indirebilmen için "Artifact" olarak sayfana bırakır
+      uses: actions/upload-artifact@v4
+      with:
+        name: UDF-Resimcisi-${{ runner.os }}
+        path: dist/*
