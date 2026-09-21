@@ -1,4 +1,19 @@
-# UDF-Yuksek-Kalite-Resim-Duzenleyici
-UDF Yüksek Kalite Resim Düzenleyici (UDF dosyaları içine yüksek kalite resim yüklemenizi sağlar.)
-Windows mac ve linux sürümlerini yan tarafta bulunan Releases kısmından indirebilirsiniz.
-Bu programın atası https://github.com/SCgrS/UDF-Resimcisi programıdır. https://github.com/SCgrS ' e teşekkürler
+# 🚀 UDF Yüksek Kalite Resim Düzenleyici
+
+UYAP Doküman Editörü (.udf) dosyalarının içindeki resimlerin kalitesini düşürmeden boyutunu küçültmenizi ve kolayca değiştirmenizi sağlayan masaüstü uygulaması.
+
+---
+
+## 📥 İndirme Bağlantıları (Download)
+
+İşletim sisteminize uygun sürümleri aşağıdaki bağlantılardan tek tıkla indirebilirsiniz:
+
+| İşletim Sistemi | İndirme Bağlantısı |
+| :--- | :--- |
+| 🪟 **Windows** | [Windows Sürümünü İndir (.exe)](https://github.com/mehmetcoban-hub/UDF-Yuksek-Kalite-Resim-Duzenleyici/releases/download/1.0.0/UDF.Yuksek.Kalite.Resim.Duzenleyici.exe) |
+| 🍎 **macOS (Mac)** | [Mac Sürümünü İndir (.zip)]([BURAYA_MAC_LINKINI_YAPISTIR](https://github.com/mehmetcoban-hub/UDF-Yuksek-Kalite-Resim-Duzenleyici/releases/download/1.0.0/UDF.Yuksek.Kalite.Resim.Duzenleyici-macOS.zip)) |
+| 🐧 **Linux** | [Linux Sürümünü İndir (.zip)]([BURAYA_LINUX_LINKINI_YAPISTIR](https://github.com/mehmetcoban-hub/UDF-Yuksek-Kalite-Resim-Duzenleyici/releases/download/1.0.0/UDF.Yuksek.Kalite.Resim.Duzenleyici-Linux.zip)) |
+
+---
+
+> ℹ️ *Ayrıca bu proje [SCgrS/UDF-Resimcisi](https://github.com/SCgrS/UDF-Resimcisi) projesinden ilham alınarak geliştirilmiştir.*[cite: 1]
